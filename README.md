@@ -30,6 +30,14 @@ This program uses [OpenAI's API](https://openai.com/blog/openai-api) to generate
 
 ![Orange Cat](https://github.com/joshfarias/Python/blob/main/images/orange-cat.png)                                                                       ![Orange Cat Sitting on Windowsill](https://github.com/joshfarias/Python/blob/main/images/better-cat-prompt.png)
 
+<p float="left">
+  <img src="https://github.com/joshfarias/Python/blob/main/images/orange-cat.png" width="400" /> 
+</p>
+
+<p float="right">
+<img src="https://github.com/joshfarias/Python/blob/main/images/better-cat-prompt.png" width="400" />
+</p>
+
 ### Notes
 - Users must have the OpenAI API library for Python installed in order for this program to work. The library can be installed using the following pip command: `pip install openai`
 - The program has the API key set as an environment variable by default, the code can however be modified in the following ways so that the user can set up their API key differently:
