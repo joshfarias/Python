@@ -15,7 +15,7 @@
 import os
 import openai
 
-#read the api key from preset enviornment variable
+#read the api key from preset environment variable
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 #check if the api key is valid, if not throw error
