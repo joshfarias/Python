@@ -14,7 +14,7 @@ Below is an screenshot containing the a brief conversation with the chatbot:
 <img src="https://github.com/joshfarias/Python/blob/main/images/davinci-003-chatbot.png" alt="python logo" height="400">
 </h1>
 
-###### Notes
+#### Notes
 - Users must have the OpenAI API library for Python installed in order for this program to work. The library can be installed using the following pip command: `pip install openai`
 - The program has the API key set as an environment variable by default, the code can however be modified in the following ways so that the user can set up their API key differently:
   - Use a configuration file to store the API key
