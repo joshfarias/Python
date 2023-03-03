@@ -4,6 +4,7 @@
 
 ## Chatbot using text-davinci-003 Model from OpenAI
 **[davinci-003-chatbot.py](https://github.com/joshfarias/Python/blob/main/src/davinci-003-chatbot.py)**
+
 This program uses [OpenAI's API](https://openai.com/blog/openai-api) to generate responses to user prompts and questions in an interactive chatbot format. The responses generated are based on OpenAI's text-davinci-003 language model. To end the chat the user can enter the keyword `end`.
 
 Below is an screenshot containing a brief conversation with the chatbot:
