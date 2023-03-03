@@ -11,7 +11,7 @@ This program uses OpenAI's [API](https://openai.com/blog/openai-api) to generate
 Below is an screenshot containing the a brief conversation with the chatbot:
 
 <h1>
-<img src="https://github.com/joshfarias/Python/blob/main/images/davinci-003-chatbot.png" alt="python logo" height="75">
+<img src="https://github.com/joshfarias/Python/blob/main/images/davinci-003-chatbot.png" alt="python logo" height="150">
 </h1>
 
 ###### Notes
