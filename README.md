@@ -30,10 +30,10 @@ This program uses [OpenAI's API](https://openai.com/blog/openai-api) to generate
 
 <div style="display: flex; justify-content: center;">
   <div style="width: 50%;">
-    <img src="https://github.com/joshfarias/Python/blob/main/images/orange-cat.png" alt="Image 1" style="width: 100%;">
+    <img src="https://github.com/joshfarias/Python/blob/main/images/orange-cat.png" alt="orange cat" style="width: 50%;">
   </div>
   <div style="width: 50%;">
-    <img src="https://github.com/joshfarias/Python/blob/main/images/better-cat-prompt.png" alt="Image 2" style="width: 100%;">
+    <img src="https://github.com/joshfarias/Python/blob/main/images/better-cat-prompt.png" alt="better orange cat prompt" style="width: 50%;">
   </div>
 </div>
 
