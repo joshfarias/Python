@@ -32,10 +32,7 @@ This program uses [OpenAI's API](https://openai.com/blog/openai-api) to generate
 
 <p float="left">
   <img src="https://github.com/joshfarias/Python/blob/main/images/orange-cat.png" width="200" /> 
-</p>
-
-<p float="right">
-<img src="https://github.com/joshfarias/Python/blob/main/images/better-cat-prompt.png" width="200" />
+  <img src="https://github.com/joshfarias/Python/blob/main/images/better-cat-prompt.png" width="200" />
 </p>
 
 ### Notes
