@@ -28,14 +28,9 @@ Below is an screenshot containing a brief conversation with the chatbot:
 
 This program uses [OpenAI's API](https://openai.com/blog/openai-api) to generate images based on user prompts using OpenAI's DALL-E model. For best results, user prompts should be clear and concise. For example `orange cat` vs `orange cat sitting on a windowsill overlooking a city skyline at sunset, photorealistic`
 
-<div style="display: flex; justify-content: center;">
-  <div style="width: 50%;">
-    <img src="https://github.com/joshfarias/Python/blob/main/images/orange-cat.png" alt="orange cat" style="width: 50%;">
-  </div>
-  <div style="width: 50%;">
-    <img src="https://github.com/joshfarias/Python/blob/main/images/better-cat-prompt.png" alt="better orange cat prompt" style="width: 50%;">
-  </div>
-</div>
+| ![orange cat]([image1.png](https://github.com/joshfarias/Python/blob/main/images/orange-cat.png) "Orange Cat") | ![orange cat sitting on a windowsill overlooking a city skyline at sunset, photorealistic]([image2.png](https://github.com/joshfarias/Python/blob/main/images/better-cat-prompt.png) "Orange Cat Sitting on a Windowsill Overlooking a City Skyline at Sunset, Photorealistic") |
+|:--:|:--:|
+| **Orange Cat** | **Orange Cat Sitting on a Windowsill Overlooking a City Skyline at Sunset, Photorealistic** |
 
 ### Notes
 - Users must have the OpenAI API library for Python installed in order for this program to work. The library can be installed using the following pip command: `pip install openai`
