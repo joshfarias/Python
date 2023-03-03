@@ -2,8 +2,6 @@
   <img src="https://github.com/joshfarias/Python/raw/main/images/python-logo.png" alt="python logo" height="100">
  </h1>
 
-# **Python Programming Projects:**
-
 ## Chatbot using text-davinci-003 Model from OpenAI
 **[davinci-003-chatbot.py](https://github.com/joshfarias/Python/blob/main/src/davinci-003-chatbot.py)**
 This program uses OpenAI's [API](https://openai.com/blog/openai-api) to generate responses to user prompts and questions in an interactive chatbot format. The responses generated are based on OpenAI's text-davinci-003 language model.
