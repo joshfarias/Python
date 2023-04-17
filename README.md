@@ -38,3 +38,21 @@ This program uses [OpenAI's API](https://openai.com/blog/openai-api) to generate
   - Use a keyring library
   - Hardcode the API key (not recommended)
 - By default the program is set to generate a single image with a resolution of `256x256`. This was done for prompt testing purposes due to the greater charges OpenAI places on higher resolution images. This however can easily be changed by modifying the `size` parameter in the `openai.Image.create()` function call to a greater resolution such as `1024x1024` and by modifying the `n` parameter to a set number of how many images you want such as `3`.
+
+
+## NBA Player Stats
+**[NBAPlayerStats.py](https://github.com/joshfarias/Python/blob/main/src/NBAPlayerStats.py)**
+
+This program uses swar's [NBA API](https://github.com/swar/nba_api) to fetch career, season and game log stats for a given NBA player that the program prompts the user to enter. Here is an example of the program running using the NBA Player Luka Doncic:
+
+### Carrer Stats:
+![Career Stats](https://i.imgur.com/o2gVNH5.png)
+
+### Season Stats:
+![Season Stats](https://i.imgur.com/vxIyLvF.png)
+
+### Game Log Stats:
+![](https://i.imgur.com/7esLd5m.png)
+
+### Notes
+- Users must have the `nba_api` and `tabulate` libraries for Python installed in order for this program to work. The libraries can be installed using the following pip command: `pip install nba_api tabulate`
