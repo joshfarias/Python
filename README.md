@@ -78,7 +78,7 @@ The payload targets Windows computers. First it opens up Notepad using Run and d
   - Move the `.UF2` firmware file that was downloaded from Circuit Python's [website](https://circuitpython.org/board/raspberry_pi_pico/) on to the Pico.
   - The Pico should now appear as `CIRCUITPY`
   - Extract the contents of the `.ZIP` file that was downloaded from [Adafruit HID library](https://github.com/adafruit/Adafruit_CircuitPython_HID/releases) and  search for the following folder:
-    - `adafruit_hid`
+    - `/adafruit_hid`
   - Select `adafruit_hid` and copy it into the `lib` folder in `CIRCUITPY`
-  - To make a copy of this project you can overwritte the contents of the `payload.dd` and `code.py` file with the code from this repo. Just be forewarned as the code will automatically run upon plugging in the Pico. [`code.py`](https://github.com/dbisu/pico-ducky/blob/main/duckyinpython.py) is a Python script that converts DuckScript into MicroPython code for Pico. The `payload.dd` file is a binary file that contains the keystrokes and other actions that will be executed by the Pico when it is plugged in.
+  - To make a copy of this project you can overwritte the contents of the `payload.dd` and `code.py` file with the code from this repo. Just be forewarned as the code will automatically run upon plugging in the Pico. [`code.py`](https://github.com/dbisu/pico-ducky/blob/main/duckyinpython.py) is a Python script that converts DuckyScript into MicroPython code for Pico. The `payload.dd` file is a binary file that contains the keystrokes and other actions that will be executed by the Pico when it is plugged in.
 
