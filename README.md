@@ -75,7 +75,7 @@ The payload targets Windows computers. First it opens up Notepad using Run and d
   - Connect the Raspberry Pi Pico (RP2040) to computer using USB-A to Micro-USB cable.
   - Put the Pico into bootloader mode by holding down the BOOTSEL button when plugging in the USB.
   - The Pico should appear as a mass storage device.
-  - Move the `.UF2` firmware file that was downloaded from Circuit Python's [website](https://circuitpython.org/board/raspberry_pi_pico/).
+  - Move the `.UF2` firmware file that was downloaded from Circuit Python's [website](https://circuitpython.org/board/raspberry_pi_pico/) on to the Pico.
   - The Pico should now appear as `CIRCUITPY`
   - Extract the contents of the `.ZIP` file that was downloaded from [Adafruit HID library](https://github.com/adafruit/Adafruit_CircuitPython_HID/releases) and  search for the following folder:
     - `adafruit_hid`
