@@ -20,11 +20,11 @@ from urllib.parse import urlparse, urljoin
 
 #function to download a file from a given URL
 def download_file(url, folder):
-    # Get the filename from the URL
+    #get the filename from the URL
     filename = os.path.basename(urlparse(url).path)
-    # Create the full path for the downloaded file
+    #create the full path for the downloaded file
     filepath = os.path.join(folder, filename)
-    # Download the file
+    #download the file
     response = requests.get(url, stream=True)
     with open(filepath, 'wb') as f:
         for chunk in response.iter_content(1024):
