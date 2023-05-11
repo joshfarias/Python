@@ -86,7 +86,7 @@ The payload targets Windows computers. First it opens up Notepad using Run and d
 
 **[mediaDL.py](https://github.com/joshfarias/Python/blob/main/src/mediaDL.py)**
 
-This program uses the `BeautifulSoup` and `requests` Python libraries to parse through a given URL from a web forum and extract and download media that is in the form of (.JPG, .PNG, .GIF, .WEBM and .MP4). Here is an example of the program running:
+This program uses the `BeautifulSoup` and `requests` Python libraries to parse through a given URL from a web forum and extract and download media that is in the form of (.JPG, .PNG, .GIF, .WEBM and .MP4). Here is an example of the program running and downloading media from AVForums, an audiovisual and home entertainment forum:
 
 ![Media Downloader](https://i.imgur.com/Ewf7OA0.png)
 
