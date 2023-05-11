@@ -90,7 +90,7 @@ This program uses the `BeautifulSoup` and `requests` Python libraries to parse t
 
 ![Media Downloader](https://i.imgur.com/Ewf7OA0.png)
 
-The media that is downloaded will be saved within a folder entitled `media` within the directory the program is run in.
+The media that is downloaded will be saved within a folder entitled `media` within the directory the program is in.
 
 ### Notes:
 
