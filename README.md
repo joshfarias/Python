@@ -82,3 +82,17 @@ The payload targets Windows computers. First it opens up Notepad using Run and d
   - Select `adafruit_hid` and copy it into the `lib` folder in `CIRCUITPY`
   - To make a copy of this project you can overwritte the contents of the `payload.dd` and `code.py` file with the code from this repo. Just be forewarned as the code will automatically run upon plugging in the Pico. [`code.py`](https://github.com/dbisu/pico-ducky/blob/main/duckyinpython.py) is a Python script that converts DuckyScript into MicroPython code for Pico. The `payload.dd` file is a binary file that contains the keystrokes and other actions that will be executed by the Pico when it is plugged in.
 
+## Media Downloader
+
+**[mediaDL.py](https://github.com/joshfarias/Python/blob/main/src/mediaDL.py)**
+
+This program uses the `BeautifulSoup` and `requests` Python libraries to parse through a given URL from a web forum and extract and download media that is in the form of (.JPG, .PNG, .GIF, .WEBM and .MP4). Here is an example of the program running:
+
+![Media Downloader](https://i.imgur.com/Ewf7OA0.png)
+
+The media that is downloaded will be saved within a folder entitled `media` within the directory the program is run in.
+
+### Notes:
+
+  - Users must have the `BeautifulSoup` and `requests` libraries for Python installed in order for this program to work. The libraries can be installed using the following pip command: 
+    `pip install beautifulsoup4 requests`
