@@ -46,13 +46,13 @@ This program uses [OpenAI's API](https://openai.com/blog/openai-api) to generate
 This program uses swar's [NBA API](https://github.com/swar/nba_api) to fetch career, season and game log stats for a given NBA player that the program prompts the user to enter. Here is an example of the program running using the NBA Player Luka Doncic:
 
 ### Carrer Stats:
-![Career Stats](https://i.imgur.com/o2gVNH5.png)
+![Career Stats](https://github.com/joshfarias/Python/blob/main/images/luka_career.png)
 
 ### Season Stats:
-![Season Stats](https://i.imgur.com/vxIyLvF.png)
+![Season Stats](https://raw.githubusercontent.com/joshfarias/Python/refs/heads/main/images/luka_season.png)
 
 ### Game Log Stats:
-![](https://i.imgur.com/7esLd5m.png)
+![](https://raw.githubusercontent.com/joshfarias/Python/refs/heads/main/images/luka_log.png)
 
 ### Notes
 - Users must have the `nba_api` and `tabulate` libraries for Python installed in order for this program to work. The libraries can be installed using the following pip command: `pip install nba_api tabulate`
@@ -88,7 +88,7 @@ The payload targets Windows computers. First it opens up Notepad using Run and d
 
 This program uses the `BeautifulSoup` and `requests` Python libraries to parse through a given URL from a web forum and extract and download media that is in the form of (.JPG, .PNG, .GIF, .WEBM and .MP4). Here is an example of the program running and downloading media from AVForums, an audiovisual and home entertainment forum:
 
-![Media Downloader](https://i.imgur.com/Ewf7OA0.png)
+![Media Downloader](https://raw.githubusercontent.com/joshfarias/Python/refs/heads/main/images/mediaDL.png)
 
 The media that is downloaded will be saved within a folder entitled `media` within the directory the program is in.
 
